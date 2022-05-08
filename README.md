@@ -12,6 +12,8 @@
 ## Flutter
 
 - Language: Dart
+- Design Pattern: BLoC
+- Package repository: https://pub.dev/
 - Great documentations & developer experience
 - Compiles all the way down to native code
 - Good boilerplate
@@ -26,6 +28,8 @@
 
 - Language: Javascript/Typescript
 - Framework: React
+- Design Pattern: Redux
+- Package repository: npm
 - Huge open source community
 - Can write native code
 - Bridge
