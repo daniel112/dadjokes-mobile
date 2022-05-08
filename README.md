@@ -13,7 +13,8 @@
   - History - shows a list of past dadJoke item(s)
 
 - Material Icon for tab images
-  <img src="./images/2022-05-08-15-36-26.png" alt="Home" width="200"/>
+
+<img src="./images/2022-05-08-15-36-26.png" alt="Home" width="200"/>
 
 ## Measurement
 
