@@ -34,7 +34,7 @@ class _Home extends State<Home> {
                   child: Text(
                     dadJoke?.joke ?? "Press the button for dad jokes!", 
                     textAlign: TextAlign.center,
-                    style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 2.0),
+                    style: const TextStyle(fontSize: 20),
                   ),
                 ),
                 ElevatedButton(

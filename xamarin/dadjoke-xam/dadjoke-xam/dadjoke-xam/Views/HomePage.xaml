@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:dadjoke_xam.ViewModels"
+             x:DataType="viewmodels:HomeViewModel"
+             x:Class="dadjoke_xam.Views.HomePage"
+             Title="{Binding Title}">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10" VerticalOptions="CenterAndExpand">
+        <Label Text="{Binding Joke}" FontSize="20" HorizontalTextAlignment="Center"/>
+        <Button Margin="0,10,0,0" Text="FETCH"
+                Command="{Binding FetchDadJoke}"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+    </StackLayout>
+
+
+</ContentPage>
+
