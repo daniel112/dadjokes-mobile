@@ -5,6 +5,8 @@
   - [React Native (Expo)](https://docs.expo.dev/get-started/installation/)
   - [Xamarin (Forms)](https://dotnet.microsoft.com/en-us/learn/xamarin/hello-world-tutorial/install)
 
+All three solutions provide similar UI building experience of using building blocks (Widgets, Components, Xml) to put together a View heirarchy.
+
 ## App Features
 
 - Simple tab navigation
@@ -55,7 +57,7 @@ General categories of how I would score each framework based on my experience
 
 - **Language**: Javascript/Typescript
 - **Framework**: React
-- **Package manager**: npm
+- **Package manager**: npm/yarn
 - **Common design pattern**: Redux
 
 ## Xamarin Forms

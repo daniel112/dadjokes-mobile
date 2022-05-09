@@ -11,8 +11,8 @@ import { ColorSchemeName } from "react-native";
 
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
-import TabOneScreen from "../screens/TabOneScreen";
-import TabTwoScreen from "../screens/TabTwoScreen";
+import HomeScreen from "../screens/HomeScreen";
+import HistoryScreen from "../screens/HistoryScreen";
 import {
   RootStackParamList,
   RootTabParamList,
@@ -64,22 +64,26 @@ function BottomTabNavigator() {
 
   return (
     <BottomTab.Navigator
-      initialRouteName="TabOne"
+      initialRouteName="HistoryScreen"
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme].tint,
+        headerStyle: {
+          backgroundColor: Colors.light.primary,
+        },
+        headerTintColor: "white",
       }}
     >
       <BottomTab.Screen
-        name="TabOne"
-        component={TabOneScreen}
-        options={({ navigation }: RootTabScreenProps<"TabOne">) => ({
+        name="HomeScreen"
+        component={HomeScreen}
+        options={({ navigation }: RootTabScreenProps<"HomeScreen">) => ({
           title: "Home",
           tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
         })}
       />
       <BottomTab.Screen
-        name="TabTwo"
-        component={TabTwoScreen}
+        name="HistoryScreen"
+        component={HistoryScreen}
         options={{
           title: "History",
           tabBarIcon: ({ color }) => (
