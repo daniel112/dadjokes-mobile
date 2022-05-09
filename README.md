@@ -26,6 +26,11 @@ General categories of how I would score each framework based on my experience
 - **Developer support** (open source, community, documentation)
 - **Developer experience** (native support, debugging, flexibility)
 
+## TODO:
+
+- [ ] Performance comparison
+- [ ] App artifacts size
+
 # Summary
 
 ## Flutter
@@ -40,18 +45,21 @@ General categories of how I would score each framework based on my experience
 
 **Ease of getting started**: <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20">
 
-- For someone who's never touched Dart of Flutter, the onboarding experience was very smooth
+- Flutter provides great onboarding experience with the CLI tooling
+- Noticeably faster to setup than ReactNative and Xamarin projects
 
 **Developer Support**: <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/star.svg" width="20" height="20">
 
-- Flutter is the newer framework out of the three, so it's expected that there's a lot of activity in the community.
+- There's a lot of activity in the community, comparable to the `React Native` community.
 - Official documentations are very thorough.
-- It's clear which plugins are most popular and active, everyone and their mom is endorsing it
+- Has good open source libs to use.
 
 **Developer Experience**: <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/star.svg" width="20" height="20"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/star.svg" width="20" height="20">
 
 - Developer docs are very detailed and thorough.
 - Pre-packaged debugging tool is very intuitive and easy to understand
+- Some widgets provides out of the box support for complex functionality
+- Provides great typing system that prevents runtime error
 
 ## React Native (Expo)
 
